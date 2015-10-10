@@ -1,0 +1,17 @@
+{
+  "name": "forever_init",
+  "version": "1.0.0",
+  "description": "Aplicação nodejs para facilitar na hora de inicializar todos os serviços necessários do servidor",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vinicius Figueiredo Rodrigues",
+  "preferGlobal": true,
+  "license": "MIT",
+  "bin": {
+    "forever_init": "index.js"
+  },
+  "dependencies": {
+    "fs": "0.0.2"
+  }
+}
