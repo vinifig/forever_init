@@ -1,1 +1,2 @@
-../interdesigners_api/index.js
+forever start ../interdesigners_api/index.js
+echo 'Hello World'

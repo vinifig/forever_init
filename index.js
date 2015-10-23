@@ -6,6 +6,7 @@ var child = new Array();
 
 paths = paths.split("\n");
 for(var i = 0; i < paths.length; i++)
-	child[i] = exec('forever start ' + paths[i], function(err,stdout,strerr){
+	child[i] = exec(paths[i], function(err,stdout,strerr){
+	// child[i] = exec('forever start ' + paths[i], function(err,stdout,strerr){
 		console.log(stdout);
 	});
